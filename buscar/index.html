@@ -1,0 +1,78 @@
+---
+layout: default
+title: Resultados de búsqueda
+description: Buscar información en el Centro de Ayuda de Fonasa Uruguay
+---
+
+<div class="search-page">
+  <div class="search-header">
+    <h1>Resultados de búsqueda</h1>
+    <div class="search-form-container">
+      <form action="{{ '/buscar/' | relative_url }}" method="get" class="search-page-form">
+        <input type="text" name="q" id="search-input" placeholder="Buscar información..." value="{{ page.query }}" aria-label="Buscar">
+        <button type="submit" class="btn">Buscar</button>
+      </form>
+    </div>
+  </div>
+  
+  <div id="search-results" class="search-results">
+    <p class="search-message">Ingresa un término de búsqueda para ver resultados.</p>
+  </div>
+  
+  {% include ad-unit.html %}
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('search-input');
+    const searchResults = document.getElementById('search-results');
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get('q');
+    
+    if (query) {
+      searchInput.value = query;
+      searchResults.innerHTML = '<p class="search-loading">Buscando resultados...</p>';
+      
+      // Simulación de búsqueda (en un sitio real, esto sería reemplazado por una búsqueda real)
+      setTimeout(function() {
+        // Datos de ejemplo
+        const results = [
+          {
+            title: 'Cómo afiliarse al Fonasa',
+            url: '/afiliacion/como-afiliarse/',
+            description: 'Guía paso a paso para afiliarse al Fondo Nacional de Salud (Fonasa) en Uruguay'
+          },
+          {
+            title: 'Prestaciones incluidas en el Fonasa',
+            url: '/prestaciones/prestaciones-incluidas/',
+            description: 'Información sobre las prestaciones médicas incluidas en la cobertura del Fonasa'
+          },
+          {
+            title: 'Cambio de prestador de salud',
+            url: '/tramites/cambio-prestador/',
+            description: 'Procedimiento para cambiar de prestador de salud dentro del Sistema Nacional Integrado de Salud'
+          }
+        ];
+        
+        if (results.length > 0) {
+          let resultsHTML = `<p class="search-count">Se encontraron ${results.length} resultados para "${query}"</p>`;
+          resultsHTML += '<div class="search-results-list">';
+          
+          results.forEach(result => {
+            resultsHTML += `
+              <a href="${result.url}" class="search-result-item">
+                <h3>${result.title}</h3>
+                <p>${result.description}</p>
+              </a>
+            `;
+          });
+          
+          resultsHTML += '</div>';
+          searchResults.innerHTML = resultsHTML;
+        } else {
+          searchResults.innerHTML = `<p class="search-no-results">No se encontraron resultados para "${query}"</p>`;
+        }
+      }, 1000);
+    }
+  });
+</script>
