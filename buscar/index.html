@@ -9,7 +9,7 @@ description: Buscar información en el Centro de Ayuda de Fonasa Uruguay
     <h1>Resultados de búsqueda</h1>
     <div class="search-form-container">
       <form action="{{ '/buscar/' | relative_url }}" method="get" class="search-page-form">
-        <input type="text" name="q" id="search-input" placeholder="Buscar información..." value="{{ page.query }}" aria-label="Buscar">
+        <input type="text" name="q" id="search-results" placeholder="Buscar información..." value="{{ page.query }}" aria-label="Buscar">
         <button type="submit" class="btn">Buscar</button>
       </form>
     </div>
@@ -39,17 +39,17 @@ description: Buscar información en el Centro de Ayuda de Fonasa Uruguay
         const results = [
           {
             title: 'Cómo afiliarse al Fonasa',
-            url: '/afiliacion/como-afiliarse/',
+            url: '/afiliacion/',
             description: 'Guía paso a paso para afiliarse al Fondo Nacional de Salud (Fonasa) en Uruguay'
           },
           {
             title: 'Prestaciones incluidas en el Fonasa',
-            url: '/prestaciones/prestaciones-incluidas/',
+            url: '/prestaciones/',
             description: 'Información sobre las prestaciones médicas incluidas en la cobertura del Fonasa'
           },
           {
             title: 'Cambio de prestador de salud',
-            url: '/tramites/cambio-prestador/',
+            url: '/tramites/',
             description: 'Procedimiento para cambiar de prestador de salud dentro del Sistema Nacional Integrado de Salud'
           }
         ];
