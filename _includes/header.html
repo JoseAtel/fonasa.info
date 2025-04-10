@@ -7,11 +7,19 @@
   <meta name="description" content="{{ page.description | default: site.description }}">
   <meta name="author" content="Equipo Fonasa Uruguay">
   <meta name="keywords" content="{{ page.tags | join: ', ' }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:card" content="summary_large_image">  
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/search-page.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/category-page.css' | relative_url }}">
   <meta name="robots" content="index, follow">
   <meta name="google-site-verification" content="WsD2GUb42TU5XxReqHY5frTl_Hz8nTto5LNhfZ4pPf0" />
+    <!-- Additional preloads -->
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+    <link rel="preconnect" href="https://www.facebook.com" crossorigin>
 </head>
 <body>
 <header class="site-header">
