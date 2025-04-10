@@ -1,0 +1,10 @@
+title: Mi sitio
+baseurl: "" 
+url: "https://github.com/JoseAtel/fonasa.info"
+collections:
+  pages:
+    output: true
+permalink: /:categories/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
