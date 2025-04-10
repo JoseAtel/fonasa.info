@@ -19,7 +19,7 @@ description: Información y ayuda sobre el Fondo Nacional de Salud (Fonasa) de U
       <p>Información sobre cómo afiliarse al Fonasa y gestionar tu registro</p>
       <div class="article-count">{{ site.afiliacion.size }} artículos</div>
     </a>
-    
+
     <a href="{{ '/prestaciones/' | relative_url }}" class="category-card">
       <div class="category-icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
