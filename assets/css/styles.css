@@ -96,6 +96,13 @@
     margin: auto;
     padding: var(--space-lg) var(--space-md);
   }
+
+  .header-container {
+    width: 100%;
+    max-width: var(--container-max-width);
+    margin:0 auto;
+    padding: 0 var(--space-md);
+  }
   
   /* Header */
   .site-header {
