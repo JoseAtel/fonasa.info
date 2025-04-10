@@ -1,6 +1,6 @@
 title: Mi sitio
 baseurl: "" 
-url: "https://github.com/JoseAtel/fonasa.info"
+url: "https://fonasa.info"
 collections:
   pages:
     output: true
