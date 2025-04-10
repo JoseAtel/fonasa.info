@@ -127,7 +127,7 @@
     font-style: normal;
   }
   
-  .logo h1 {
+  .logo {
     font-size: var(--font-size-xl);
     font-weight: 600;
   }
@@ -137,6 +137,13 @@
     align-items: center;
   }
   
+/** Heading H1 - h2 - h3 - h4 - h5 - h6 **/
+  h1, h2, h3, h4, h5, h6 {
+    margin: var(--space-sm) 0;
+    font-family: var(--font-family-heading);
+    color: var(--color-text);
+  }
+
   .language-selector {
     position: relative;
   }
