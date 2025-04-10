@@ -1,105 +1,62 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'es' }}">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  <link rel="stylesheet" href="/assets/css/styles.css'">
-  <link rel="stylesheet" href="/assets/css/search-page.css">
-  <link rel="stylesheet" href="/assets/css/category-page.css">
-  <meta name="google-site-verification" content="WsD2GUb42TU5XxReqHY5frTl_Hz8nTto5LNhfZ4pPf0" />
-</head>
-<body>
-<header class="site-header">
-    <div class="header-container">
-      <div class="header-content">
-        <a href="{{ '/' | relative_url }}" class="logo">
-          <span>Información sobre Fonasa</span>
-        </a>
+---
+layout: default
+title: Centro de Ayuda
+description: Información y ayuda sobre el Fondo Nacional de Salud (Fonasa) de Uruguay
+---
+
+<div class="home-categories">
+  <div class="category-grid">
+    <a href="{{ '/afiliacion/' | relative_url }}" class="category-card">
+      <div class="category-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+          <circle cx="9" cy="7" r="4"></circle>
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+        </svg>
       </div>
-      
-      <div class="search-container">
-        <form action="{{ '/buscar/' | relative_url }}" method="get" class="search-form">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
-            <circle cx="11" cy="11" r="8"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-          </svg>
-          <input type="text" name="q" id="search-input" placeholder="Buscar información..." value="{{ page.query }}" aria-label="Buscar">
-        </form>
+      <h3>Afiliación y registro</h3>
+      <p>Información sobre cómo afiliarse al Fonasa y gestionar tu registro</p>
+      <div class="article-count">{{ site.afiliacion.size }} artículos</div>
+    </a>
+    
+    <a href="{{ '/prestaciones/' | relative_url }}" class="category-card">
+      <div class="category-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+        </svg>
       </div>
-    </div>
-  </header>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Inicio",
-          "item": "{{ site.url }}{{ site.baseurl }}/"
-        }
-        {% assign url_parts = page.url | split: '/' %}
-        {% assign position = 2 %}
-        {% capture breadcrumb_path %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
-        {% for part in url_parts %}
-          {% if part != "" and part != "index.html" %}
-            {% capture breadcrumb_path %}{{ breadcrumb_path }}/{{ part }}{% endcapture %}
-            ,{
-              "@type": "ListItem",
-              "position": {{ position }},
-              "name": "{{ part | replace:'-',' ' | capitalize }}",
-              "item": "{{ breadcrumb_path }}/"
-            }
-            {% assign position = position | plus: 1 %}
-          {% endif %}
-        {% endfor %}
-      ]
-    }
-  </script>    
-        
-       
-  <main class="container">
-  <h2>Página no encontrada</h2>
-  <p>La página que buscas no existe. Puedes volver a la página de inicio o explorar otras secciones:</p>
-  <p><a href="/">Volver a la página principal</a></p>
-  </main>
-  
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-section">
-          <h3>Fonasa Uruguay</h3>
-          <p>El Fondo Nacional de Salud (Fonasa) es un organismo público que financia el Sistema Nacional Integrado de Salud (SNIS).</p>
-        </div>
-        
-        <div class="footer-section">
-          <h3>Enlaces rápidos</h3>
-          <ul>
-            <li><a href="{{ '/afiliacion/' | relative_url }}">Afiliación</a></li>
-            <li><a href="{{ '/prestaciones/' | relative_url }}">Prestaciones</a></li>
-            <li><a href="{{ '/tramites/' | relative_url }}">Trámites</a></li>
-            <li><a href="{{ '/preguntas-frecuentes/' | relative_url }}">Preguntas frecuentes</a></li>
-          </ul>
-        </div>
-        
-        <!--<div class="footer-section">
-          <h3>Contacto</h3>
-          <ul>
-            <li>Teléfono:</li>
-            <li>Email:</li>
-            <li>Dirección: Montevideo</li>
-          </ul>
-        </div>-->
+      <h3>Prestaciones y beneficios</h3>
+      <p>Detalles sobre las prestaciones y beneficios que ofrece el Fonasa</p>
+      <div class="article-count">{{ site.prestaciones.size }} artículos</div>
+    </a>
+    
+    <a href="{{ '/tramites/' | relative_url }}" class="category-card">
+      <div class="category-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
       </div>
-      
-      <div class="footer-bottom">
-        <p>&copy; {{ 'now' | date: "%Y" }} Fonasa Uruguay.</p>
+      <h3>Trámites y gestiones</h3>
+      <p>Guías para realizar trámites y gestiones relacionadas con el Fonasa</p>
+      <div class="article-count">{{ site.tramites.size }} artículos</div>
+    </a>
+    
+    <a href="{{ '/preguntas-frecuentes/' | relative_url }}" class="category-card">
+      <div class="category-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+          <line x1="12" y1="17" x2="12.01" y2="17"></line>
+        </svg>
       </div>
-    </div>
-  </footer>
-  <script src="/assets/js/main.js" defer></script>
-</body>
-</html>
+      <h3>Preguntas frecuentes</h3>
+      <p>Respuestas a las preguntas más comunes sobre el Fonasa</p>
+      <div class="article-count">{{ site.preguntas-frecuentes.size }} artículos</div>
+    </a>
+  </div>
+</div>
