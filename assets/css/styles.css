@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap');
 /* Variables CSS */
 :root {
     /* Colores */
@@ -120,6 +121,10 @@
   .logo {
     color: white;
     text-decoration: none;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--font-size-lg);
   }
   
   .logo h1 {
