@@ -572,6 +572,7 @@ nav[aria-label="Breadcrumb"] ol {
 /* Estilo de los elementos de la lista (li) */
 nav[aria-label="Breadcrumb"] ol li {
   margin-right: 10px;
+  font-weight: bold;
 }
 
 /* Enlaces */
@@ -579,10 +580,12 @@ nav[aria-label="Breadcrumb"] a {
   text-decoration: none;
   color: #007bff;
   transition: color 0.3s;
+  font-weight: bold;
 }
 
 nav[aria-label="Breadcrumb"] a:hover {
   color: #0056b3;
+  font-weight: bold;
 }
 
 /* Separador entre los elementos (puedes cambiarlo según tus necesidades) */
@@ -590,10 +593,12 @@ nav[aria-label="Breadcrumb"] ol li:not(:last-child)::after {
   content: '>>';
   margin-left: 10px;
   color: #777;
+  font-weight: bold;
 }
 
 /* Estilo cuando el enlace está activo (es decir, la página actual) */
 nav[aria-label="Breadcrumb"] ol li:last-child a {
   color: #666;
   font-weight: normal;
+  font-weight: bold;
 }
