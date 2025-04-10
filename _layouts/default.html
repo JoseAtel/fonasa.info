@@ -9,7 +9,22 @@
 </head>
 <body>
   {% include header.html %}
-  <main>
+  <main class="container">
+    {% if page.breadcrumbs %}
+      <nav aria-label="Breadcrumb">
+        <ol>
+          <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+          {% assign parts = page.url | split: '/' %}
+          {% for part in parts offset:1 %}
+            {% unless part == '' %}
+              <li>
+                <a href="{{ '/' | append: part | append: '/' | relative_url }}">{{ part | capitalize }}</a>
+              </li>
+            {% endunless %}
+          {% endfor %}
+        </ol>
+      </nav>
+    {% endif %}
     {% include breadcrumbs.html %}
     {{ content }}
   </main>
