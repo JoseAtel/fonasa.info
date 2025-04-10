@@ -558,6 +558,7 @@ nav[aria-label="Breadcrumb"] {
     padding: var(--space-md);
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 
 /* Estilo de la lista ordenada (ol) */
@@ -577,7 +578,6 @@ nav[aria-label="Breadcrumb"] ol li {
 nav[aria-label="Breadcrumb"] a {
   text-decoration: none;
   color: #007bff;
-  font-weight: bold;
   transition: color 0.3s;
 }
 
@@ -587,7 +587,7 @@ nav[aria-label="Breadcrumb"] a:hover {
 
 /* Separador entre los elementos (puedes cambiarlo según tus necesidades) */
 nav[aria-label="Breadcrumb"] ol li:not(:last-child)::after {
-  content: '>';
+  content: '>>';
   margin-left: 10px;
   color: #777;
 }
