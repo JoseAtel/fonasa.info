@@ -283,6 +283,13 @@
     color: white;
     font-size: var(--font-size-md);
   }
+
+  /* Opcional: mantiene el diseño igual pero da un pequeño feedback */
+  .search-form input:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 2px rgba(0, 93, 225, 0.15);
+    outline: none;
+  }
   
   .search-form input::placeholder {
     color: rgba(255, 255, 255, 0.7);
