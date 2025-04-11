@@ -286,10 +286,13 @@ Recuerda que el sistema está en constante evolución, por lo que es importante 
 
 
 
-### También te puede interesar:
+<div class="related-links">
 
+### También te puede interesar:
 
 - [Cómo afiliarse a Fonasa](/afiliacion/)
 <!-- - [Prestaciones y beneficios](/prestaciones/) -->
-- [Trámites más comunes en Fonasa](/tramites/)
+- [Trámites más comunes en Fonasa](/tramites/) 
 - [Preguntas frecuentes](/preguntas-frecuentes/)
+
+</div>
