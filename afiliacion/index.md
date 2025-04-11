@@ -276,3 +276,14 @@ Recuerda que el Fonasa no solo te brinda cobertura médica a ti, sino que tambi�
 
 
 Para más información, puedes consultar la [página oficial del BPS](https://www.bps.gub.uy "Sitio oficial del BPS" rel="nofollow noopener noreferrer") o acudir personalmente a cualquiera de sus oficinas distribuidas en todo el país.
+
+
+
+
+### También te puede interesar:
+
+
+<!-- - [Cómo afiliarse a Fonasa](/afiliacion/) -->
+- [¿Qué es el Bono PAD?](/prestaciones/bono-pad/)
+- [Trámites más comunes en Fonasa](/tramites/)
+- [Preguntas frecuentes](/preguntas-frecuentes/)

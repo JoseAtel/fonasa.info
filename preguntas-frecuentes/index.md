@@ -396,3 +396,14 @@ El Fonasa es un sistema complejo y en constante evolución que ha transformado s
 Si tienes dudas específicas que no han sido respondidas en esta sección, te recomendamos consultar directamente en las oficinas del BPS, llamar al servicio de atención telefónica (0800 2001) o visitar la [página oficial del BPS](https://www.bps.gub.uy "Sitio oficial del BPS" rel="nofollow noopener noreferrer").
 
 Recuerda que el sistema está en constante evolución, por lo que es importante mantenerse informado sobre las actualizaciones y cambios que se van implementando.
+
+
+
+
+### También te puede interesar:
+
+
+- [Cómo afiliarse a Fonasa](/afiliacion/)
+- [¿Qué es el Bono PAD?](/prestaciones/bono-pad/)
+- [Trámites más comunes en Fonasa](/tramites/)
+<!-- - [Preguntas frecuentes](/preguntas-frecuentes/) -->

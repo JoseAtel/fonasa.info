@@ -282,3 +282,14 @@ Desde su creación, el Fonasa ha ido ampliando progresivamente sus prestaciones:
 El Fonasa representa un avance significativo en la garantía del derecho a la salud en Uruguay, ofreciendo una amplia gama de prestaciones y beneficios a sus afiliados. Conocer en detalle estas prestaciones te permitirá aprovechar al máximo los servicios disponibles y contribuir a mejorar tu calidad de vida y la de tu familia.
 
 Recuerda que el sistema está en constante evolución, por lo que es importante mantenerse informado sobre las actualizaciones y nuevas prestaciones que se van incorporando. Para más información, puedes consultar la [página oficial del Ministerio de Salud Pública](https://www.gub.uy/ministerio-salud-publica "Ministerio de Salud Pública" rel="nofollow noopener noreferrer") o la [página del BPS](https://www.bps.gub.uy "Banco de Previsión Social" rel="nofollow noopener noreferrer").
+
+
+
+
+### También te puede interesar:
+
+
+- [Cómo afiliarse a Fonasa](/afiliacion/)
+<!-- - [¿Qué es el Bono PAD?](/prestaciones/bono-pad/) -->
+- [Trámites más comunes en Fonasa](/tramites/)
+- [Preguntas frecuentes](/preguntas-frecuentes/)

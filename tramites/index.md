@@ -488,3 +488,14 @@ Realizar correctamente los trámites y gestiones relacionados con el Fonasa es f
 Recuerda que el BPS está constantemente mejorando sus servicios y ampliando las opciones de trámites en línea, por lo que es recomendable consultar periódicamente la [página oficial del BPS](https://www.bps.gub.uy "Sitio oficial del BPS" rel="nofollow noopener noreferrer") para obtener la información más actualizada sobre los procedimientos.
 
 Si tienes dudas específicas sobre algún trámite, no dudes en consultar directamente en las oficinas del BPS o a través de sus canales de atención al usuario.
+
+
+
+
+### También te puede interesar:
+
+
+- [Cómo afiliarse a Fonasa](/afiliacion/)
+- [¿Qué es el Bono PAD?](/prestaciones/bono-pad/)
+<!-- - [Trámites más comunes en Fonasa](/tramites/) -->
+- [Preguntas frecuentes](/preguntas-frecuentes/)
