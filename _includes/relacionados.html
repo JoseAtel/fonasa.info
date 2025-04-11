@@ -1,9 +1,17 @@
 <div class="related-links">
     <h3>También te puede interesar:</h3>
-    <ul>
+    <ul class="related-list">
       {% for item in site.data.relacionados %}
         {% unless page.url == item.url %}
-          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+          <li class="related-item">
+            <a href="{{ item.url }}">
+              <img src="{{ item.image }}" alt="{{ item.title }} icono" class="related-icon">
+              <div class="related-text">
+                <strong>{{ item.title }}</strong>
+                <p>{{ item.description }}</p>
+              </div>
+            </a>
+          </li>
         {% endunless %}
       {% endfor %}
     </ul>

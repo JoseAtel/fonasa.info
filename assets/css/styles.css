@@ -690,35 +690,78 @@ nav[aria-label="Breadcrumb"] ol li:last-child a {
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius-md);
   padding: var(--space-md);
-  margin-top: var(--space-lg);
   box-shadow: var(--shadow-sm);
+  margin-top: var(--space-lg);
+  overflow-x: auto;
 }
 
 .related-links h3 {
   font-size: var(--font-size-lg);
-  font-family: var(--font-family-heading);
-  margin-bottom: var(--space-sm);
   color: var(--color-primary-dark);
+  margin-bottom: var(--space-sm);
+  font-family: var(--font-family-heading);
 }
 
-.related-links ul {
+.related-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
 }
 
-.related-links li {
-  margin-bottom: var(--space-xs);
+.related-item {
+  display: flex;
+  align-items: flex-start;
+  border-radius: var(--border-radius-sm);
+  background-color: var(--color-background);
+  padding: var(--space-sm);
+  transition: background-color var(--transition-fast);
+  min-width: 100%;
 }
 
-.related-links a {
+.related-item:hover {
+  background-color: var(--color-background-alt);
+}
+
+.related-item a {
+  display: flex;
+  gap: var(--space-sm);
   text-decoration: none;
-  color: var(--color-primary);
-  font-weight: 500;
-  transition: color var(--transition-normal);
+  color: var(--color-text);
+  width: 100%;
 }
 
-.related-links a:hover {
-  color: var(--color-primary-dark);
-  text-decoration: underline;
+.related-icon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.related-text strong {
+  font-size: var(--font-size-md);
+  color: var(--color-primary);
+  display: block;
+}
+
+.related-text p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .related-list {
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .related-item {
+    flex: 0 0 85%;
+    min-width: 250px;
+    scroll-snap-align: start;
+  }
 }
