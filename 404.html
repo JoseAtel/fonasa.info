@@ -33,6 +33,66 @@
     <h2>Página no encontrada</h2>
   <p>La página que buscas no existe. Puedes volver a la página de inicio o explorar otras secciones:</p>
   <p><a href="/">Volver a la página principal</a></p>
+
+  <div id="search-results" class="search-results">
+    <p class="search-message">Ingresa un término de búsqueda para ver resultados.</p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('search-input');
+    const searchResults = document.getElementById('search-results');
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get('q');
+    
+    if (query) {
+      searchInput.value = query;
+      searchResults.innerHTML = '<p class="search-loading">Buscando resultados...</p>';
+      
+      // Simulación de búsqueda (en un sitio real, esto sería reemplazado por una búsqueda real)
+      setTimeout(function() {
+        // Datos de ejemplo
+        const results = [
+          {
+            title: 'Cómo afiliarse al Fonasa',
+            url: '/afiliacion/',
+            description: 'Guía paso a paso para afiliarse al Fondo Nacional de Salud (Fonasa) en Uruguay'
+          },
+          {
+            title: 'Prestaciones incluidas en el Fonasa',
+            url: '/prestaciones/',
+            description: 'Información sobre las prestaciones médicas incluidas en la cobertura del Fonasa'
+          },
+          {
+            title: 'Cambio de prestador de salud',
+            url: '/tramites/',
+            description: 'Procedimiento para cambiar de prestador de salud dentro del Sistema Nacional Integrado de Salud'
+          }
+        ];
+        
+        if (results.length > 0) {
+          let resultsHTML = `<p class="search-count">Se encontraron ${results.length} resultados para "${query}"</p>`;
+          resultsHTML += '<div class="search-results-list">';
+          
+          results.forEach(result => {
+            resultsHTML += `
+              <a href="${result.url}" class="search-result-item">
+                <h3>${result.title}</h3>
+                <p>${result.description}</p>
+              </a>
+            `;
+          });
+          
+          resultsHTML += '</div>';
+          searchResults.innerHTML = resultsHTML;
+        } else {
+          searchResults.innerHTML = `<p class="search-no-results">No se encontraron resultados para "${query}"</p>`;
+        }
+      }, 1000);
+    }
+  });
+</script>
   </main>
       
       <div class="footer-bottom">
