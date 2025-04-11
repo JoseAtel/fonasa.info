@@ -1,4 +1,8 @@
-/afiliacion/: "Cómo afiliarse a Fonasa"
-/prestaciones/: "Prestaciones y beneficios"
-/tramites/: "Trámites más comunes en Fonasa"
-/preguntas-frecuentes/: "Preguntas frecuentes"
+- url: /afiliacion/
+  title: Cómo afiliarse a Fonasa
+- url: /prestaciones/
+  title: Prestaciones y beneficios
+- url: /tramites/
+  title: Trámites más comunes en Fonasa
+- url: /preguntas-frecuentes/
+  title: Preguntas frecuentes
