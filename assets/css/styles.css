@@ -675,7 +675,6 @@
 
 /** LINK RELACIONADOS **/
 .related-links {
-  background-color: var(--color-background-alt);
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius-md);
   padding: var(--space-md);
