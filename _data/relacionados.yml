@@ -1,19 +1,19 @@
 - url: /afiliacion/
   title: Cómo afiliarse a Fonasa
-  image: /assets/images/afiliacion-icon.svg
+  image: /assets/images/afiliacion-registro.webp
   description: Información sobre el proceso de afiliación y registro.
 
 - url: /prestaciones/
   title: Prestaciones y beneficios
-  image: /assets/images/prestaciones-icon.svg
+  image: /assets/images/prestaciones-beneficios.webp
   description: Conoce los beneficios y coberturas del sistema de salud.
 
 - url: /tramites/
   title: Trámites más comunes en Fonasa
-  image: /assets/images/tramites-icon.svg
+  image: /assets/images/tramites-gestiones.webp
   description: Guía de los trámites más solicitados y cómo hacerlos.
 
 - url: /preguntas-frecuentes/
   title: Preguntas frecuentes
-  image: /assets/images/preguntas-icon.svg
+  image: /assets/images/preguntas-frecuentes.webp
   description: Respuestas a las dudas más comunes sobre Fonasa.
