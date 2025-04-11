@@ -60,3 +60,7 @@ description: Información y ayuda sobre el Fondo Nacional de Salud (Fonasa) de U
     </a>
   </div>
 </div>
+
+<h2>Últimas publicaciones</h2>
+
+{% include blog-list.html %}
