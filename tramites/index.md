@@ -7,7 +7,7 @@ last_updated: 2025-04-10
 author: Equipo Fonasa
 categories: [tramites, gestiones]
 tags: [fonasa, tramites, gestiones, salud, uruguay, procedimientos]
-image: /assets/images/tramites-gestiones.jpg
+image: /assets/images/tramites-gestiones.webp
 ---
 
 # Trámites y Gestiones del Fonasa Uruguay

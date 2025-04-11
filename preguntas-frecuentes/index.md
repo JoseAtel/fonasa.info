@@ -7,7 +7,7 @@ last_updated: 2025-04-10
 author: Equipo Fonasa
 categories: [preguntas, faq]
 tags: [fonasa, preguntas frecuentes, dudas, consultas, salud, uruguay]
-image: /assets/images/preguntas-frecuentes.jpg
+image: /assets/images/preguntas-frecuentes.webp
 ---
 
 # Preguntas Frecuentes sobre Fonasa Uruguay

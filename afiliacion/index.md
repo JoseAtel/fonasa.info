@@ -7,7 +7,7 @@ last_updated: 2025-04-10
 author: Equipo Fonasa
 categories: [afiliacion, registro]
 tags: [fonasa, afiliacion, registro, salud, uruguay]
-image: /assets/images/afiliacion-registro.jpg
+image: /assets/images/afiliacion-registro.webp
 ---
 
 # Afiliación y Registro al Fonasa Uruguay

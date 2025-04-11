@@ -7,7 +7,7 @@ last_updated: 2025-04-10
 author: Equipo Fonasa
 categories: [prestaciones, beneficios]
 tags: [fonasa, prestaciones, beneficios, salud, uruguay, cobertura]
-image: /assets/images/prestaciones-beneficios.jpg
+image: /assets/images/prestaciones-beneficios.webp
 ---
 
 # Prestaciones y Beneficios del Fonasa Uruguay
