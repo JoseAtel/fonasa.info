@@ -144,7 +144,11 @@
     font-family: var(--font-family-heading);
     color: var(--color-text);
   }
-
+/* Strong */
+.strong {
+  font-weight: bold;
+  color: var(--color-primary-dark);
+}
   .language-selector {
     position: relative;
   }
@@ -661,9 +665,4 @@ nav[aria-label="Breadcrumb"] ol li:last-child a {
 .related-links a:hover {
   color: var(--color-primary-dark);
   text-decoration: underline;
-}
-/* Strong */
-.strong {
-  font-weight: bold;
-  color: var(--color-primary-dark);
 }
