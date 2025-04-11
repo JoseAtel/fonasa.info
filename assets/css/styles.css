@@ -2,7 +2,7 @@
 /* Variables CSS */
 :root {
     /* Colores */
-    --color-primary: #0056b3;
+    --color-primary: #005de1;
     --color-primary-dark: #004494;
     --color-secondary: #28a745;
     --color-text: #333333;
@@ -107,7 +107,7 @@
   
   /* Header */
   .site-header {
-    background-color: #0a1929;
+    background-color: var(--color-primary);
     color: white;
     padding: var(--space-md) 0;
   }
@@ -219,7 +219,7 @@
     left: var(--space-md);
     top: 50%;
     transform: translateY(-50%);
-    color: var(--color-text-light);
+    color: white;
   }
   
   .search-form input {
@@ -296,6 +296,7 @@
   .category-card h3 {
     font-size: var(--font-size-lg);
     margin-bottom: var(--space-sm);
+    color: var(--color-primary)
   }
   
   .category-card p {
