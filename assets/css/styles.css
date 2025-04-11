@@ -665,4 +665,5 @@ nav[aria-label="Breadcrumb"] ol li:last-child a {
 /* Strong */
 .strong {
   font-weight: bold;
+  color: var(--color-primary-dark);
 }
