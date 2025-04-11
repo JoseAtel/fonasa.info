@@ -13,13 +13,15 @@ tags: [mapa del sitio, fonasa, uruguay, enlaces]
 # Mapa del Sitio
 
 Este mapa del sitio te permite encontrar rápidamente todas las secciones disponibles en Fonasa.info.
-
+<br>
 - [Inicio](https://fonasa.info/)
 - [Afiliación](https://fonasa.info/afiliacion/)
 - [Prestaciones](https://fonasa.info/prestaciones/)
 - [Trámites](https://fonasa.info/tramites/)
 - [Preguntas Frecuentes](https://fonasa.info/preguntas-frecuentes/)
 
+<br>
 ---
 
+<br>
 ¿No encontrás lo que buscás? Usá el buscador o navegá por las categorías desde el menú principal.
