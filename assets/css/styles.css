@@ -672,6 +672,43 @@
     font-weight: bold;
     cursor: default;
   }
+  /* BLOG LIST */
+  .blog-list {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-md) 0;
+    display: grid;
+    gap: var(--space-md);
+  }
+  
+  .blog-item {
+    background-color: var(--color-background-alt);
+    padding: var(--space-md);
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition-normal);
+  }
+  
+  .blog-item:hover {
+    box-shadow: var(--shadow-md);
+  }
+  
+  .blog-item h3 {
+    margin: 0;
+    font-size: var(--font-size-lg);
+    color: var(--color-primary-dark);
+  }
+  
+  .blog-meta {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    margin: var(--space-xs) 0;
+  }
+  
+  .blog-desc {
+    font-size: var(--font-size-sm);
+    color: var(--color-text);
+  }
   
 
 /** LINK RELACIONADOS **/
