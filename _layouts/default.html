@@ -1,6 +1,8 @@
   {% include header.html %}
   <span class="container">
-  {% include breadcrumb.html %}
+  {% unless page.url == "/" %}
+    {% include breadcrumb.html %}
+  {% endunless %}
   </span>
   <main class="container">
     {{ content }}
