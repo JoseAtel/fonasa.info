@@ -133,7 +133,7 @@
     font-weight: 600;
   }
 
-  a.logo {
+  a span.logo {
     font-size: var(--font-size-lg);
     font-family: "Rubik", sans-serif;
     font-weight: 700;
