@@ -122,7 +122,6 @@
   .logo {
     color: white;
     text-decoration: none;
-    font-size: var(--font-size-lg);
     font-family: "Rubik", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -138,6 +137,7 @@
     font-family: "Rubik", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: var(--font-size-xxl);
   }
   
   .header-right {
