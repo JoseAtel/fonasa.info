@@ -132,6 +132,13 @@
     font-size: var(--font-size-xl);
     font-weight: 600;
   }
+
+  a.logo {
+    font-size: var(--font-size-lg);
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
   
   .header-right {
     display: flex;
