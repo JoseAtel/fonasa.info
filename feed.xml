@@ -1,33 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://fonasa.info/</loc>
-    <lastmod>2025-04-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://fonasa.info/afiliacion/</loc>
-    <lastmod>2025-04-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fonasa.info/prestaciones/</loc>
-    <lastmod>2025-04-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fonasa.info/tramites/</loc>
-    <lastmod>2025-04-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://fonasa.info/preguntas-frecuentes/</loc>
-    <lastmod>2025-04-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-</urlset>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="html">Fonasa.info</title>
+  <subtitle>Contenido sobre el Fonasa, el Fondo Nacional de Salud (Fonasa).</subtitle>
+  <link href="https://fonasa.info/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://fonasa.info/" rel="alternate" type="text/html"/>
+  <updated>2025-04-11T10:20:20+00:00</updated>
+  <id>https://fonasa.info/feed.xml</id>
+  <generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator>
+
+  <entry>
+    <title>Inicio</title>
+    <link href="https://fonasa.info/"/>
+    <id>https://fonasa.info/</id>
+    <updated>2025-04-10T00:00:00+00:00</updated>
+    <summary>Inicio del sitio Fonasa.info</summary>
+  </entry>
+
+  <entry>
+    <title>Afiliación a Fonasa</title>
+    <link href="https://fonasa.info/afiliacion/"/>
+    <id>https://fonasa.info/afiliacion/</id>
+    <updated>2025-04-10T00:00:00+00:00</updated>
+    <summary>Información sobre cómo afiliarse a Fonasa.</summary>
+  </entry>
+
+  <entry>
+    <title>Prestaciones Fonasa</title>
+    <link href="https://fonasa.info/prestaciones/"/>
+    <id>https://fonasa.info/prestaciones/</id>
+    <updated>2025-04-10T00:00:00+00:00</updated>
+    <summary>Conoce las prestaciones cubiertas por Fonasa.</summary>
+  </entry>
+
+  <entry>
+    <title>Trámites Fonasa</title>
+    <link href="https://fonasa.info/tramites/"/>
+    <id>https://fonasa.info/tramites/</id>
+    <updated>2025-04-10T00:00:00+00:00</updated>
+    <summary>Trámites disponibles con Fonasa y cómo realizarlos.</summary>
+  </entry>
+
+  <entry>
+    <title>Preguntas Frecuentes</title>
+    <link href="https://fonasa.info/preguntas-frecuentes/"/>
+    <id>https://fonasa.info/preguntas-frecuentes/</id>
+    <updated>2025-04-10T00:00:00+00:00</updated>
+    <summary>Preguntas comunes sobre Fonasa y sus servicios.</summary>
+  </entry>
+</feed>
