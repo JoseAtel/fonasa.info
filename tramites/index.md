@@ -492,10 +492,14 @@ Si tienes dudas específicas sobre algún trámite, no dudes en consultar direct
 
 
 
+<div class="related-links">
+
 ### También te puede interesar:
 
-
 - [Cómo afiliarse a Fonasa](/afiliacion/)
-- [Prestaciones y beneficios](/prestaciones/bono-pad/)
-<!-- - [Trámites más comunes en Fonasa](/tramites/) -->
+- [Prestaciones y beneficios](/prestaciones/)
+<!--- [Trámites más comunes en Fonasa](/tramites/) -->
 - [Preguntas frecuentes](/preguntas-frecuentes/)
+
+</div>
+
