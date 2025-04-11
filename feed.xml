@@ -17,27 +17,27 @@
   </entry>
 
   <entry>
-    <title>Afiliación a Fonasa</title>
+    <title>Afiliación y registro</title>
     <link href="https://fonasa.info/afiliacion/"/>
     <id>https://fonasa.info/afiliacion/</id>
     <updated>2025-04-10T00:00:00+00:00</updated>
-    <summary>Información sobre cómo afiliarse a Fonasa.</summary>
+    <summary>Información sobre cómo afiliarse al Fonasa y gestionar tu registro.</summary>
   </entry>
 
   <entry>
-    <title>Prestaciones Fonasa</title>
+    <title>Prestaciones y beneficios</title>
     <link href="https://fonasa.info/prestaciones/"/>
     <id>https://fonasa.info/prestaciones/</id>
     <updated>2025-04-10T00:00:00+00:00</updated>
-    <summary>Conoce las prestaciones cubiertas por Fonasa.</summary>
+    <summary>Detalles sobre las prestaciones y beneficios que ofrece el Fonasa.</summary>
   </entry>
 
   <entry>
-    <title>Trámites Fonasa</title>
+    <title>Trámites y gestiones</title>
     <link href="https://fonasa.info/tramites/"/>
     <id>https://fonasa.info/tramites/</id>
     <updated>2025-04-10T00:00:00+00:00</updated>
-    <summary>Trámites disponibles con Fonasa y cómo realizarlos.</summary>
+    <summary>Guías para realizar trámites y gestiones relacionadas con el Fonasa.</summary>
   </entry>
 
   <entry>
@@ -45,6 +45,6 @@
     <link href="https://fonasa.info/preguntas-frecuentes/"/>
     <id>https://fonasa.info/preguntas-frecuentes/</id>
     <updated>2025-04-10T00:00:00+00:00</updated>
-    <summary>Preguntas comunes sobre Fonasa y sus servicios.</summary>
+    <summary>Respuestas a las preguntas más comunes sobre el Fonasa.</summary>
   </entry>
 </feed>
