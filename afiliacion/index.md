@@ -10,10 +10,14 @@ tags: [fonasa, afiliacion, registro, salud, uruguay]
 image: /assets/images/afiliacion-registro.jpg
 ---
 
-# Afiliación y Registro al Fonasa Uruguay
-
-El Fondo Nacional de Salud (Fonasa) es un pilar fundamental del Sistema Nacional Integrado de Salud (SNIS) de Uruguay, diseñado para garantizar el acceso universal a servicios de salud de calidad para todos los habitantes del país. En esta guía completa, te explicaremos todo lo que necesitas saber sobre cómo afiliarte al Fonasa y gestionar correctamente tu registro.
-
+<section class="hero-section">
+  <div class="hero-content">
+    <h1>Afiliación y Registro al Fonasa Uruguay</h1>
+    <p>
+      El Fondo Nacional de Salud (Fonasa) es un pilar fundamental del Sistema Nacional Integrado de Salud (SNIS) de Uruguay, diseñado para garantizar el acceso universal a servicios de salud de calidad para todos los habitantes del país. En esta guía completa, te explicaremos todo lo que necesitas saber sobre cómo afiliarte al Fonasa y gestionar correctamente tu registro.
+    </p>
+  </div>
+</section>
 
 
 ## ¿Qué es el Fonasa?

@@ -156,11 +156,55 @@
     font-size: var(--font-size-xxl);
     color: var(--color-primary-dark);
   }
-/* Strong */
+/* STRONG */
 .strong {
   font-weight: bold;
   color: var(--color-primary-dark);
 }
+/* HERO SECTION */
+.hero-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 60vh;
+  background-image: url('/assets/images/fonasa-bg.jpg'); /* Cambia por tu imagen real */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: var(--space-lg);
+  color: var(--color-background);
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, var(--color-primary) 0%, rgba(0, 93, 225, 0.8) 40%, transparent 100%);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  max-width: 700px;
+  z-index: 2;
+  font-family: var(--font-family-heading);
+}
+
+.hero-content h1 {
+  font-size: var(--font-size-xxl);
+  margin-bottom: var(--space-sm);
+}
+
+.hero-content p {
+  font-size: var(--font-size-md);
+  color: var(--color-background);
+  line-height: 1.6;
+}
+
+/* FIN HERO SECTION */
+
   .language-selector {
     position: relative;
   }
