@@ -404,6 +404,6 @@ Recuerda que el sistema está en constante evolución, por lo que es importante 
 
 
 - [Cómo afiliarse a Fonasa](/afiliacion/)
-- [¿Qué es el Bono PAD?](/prestaciones/bono-pad/)
+- [Prestaciones y beneficios](/prestaciones/bono-pad/)
 - [Trámites más comunes en Fonasa](/tramites/)
 <!-- - [Preguntas frecuentes](/preguntas-frecuentes/) -->

@@ -284,6 +284,6 @@ Para más información, puedes consultar la [página oficial del BPS](https://ww
 
 
 <!-- - [Cómo afiliarse a Fonasa](/afiliacion/) -->
-- [¿Qué es el Bono PAD?](/prestaciones/bono-pad/)
+- [Prestaciones y beneficios](/prestaciones/)
 - [Trámites más comunes en Fonasa](/tramites/)
 - [Preguntas frecuentes](/preguntas-frecuentes/)
