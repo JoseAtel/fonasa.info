@@ -29,6 +29,7 @@
     --font-size-lg: clamp(1.25rem, 2.5vw, 1.5rem);
     --font-size-xl: clamp(1.5rem, 3vw, 2rem);
     --font-size-xxl: clamp(2rem, 4vw, 2.5rem);
+    --font-size-2xxl: clamp(3rem, 5vw, 3.5rem);
     
     /* Bordes y sombras */
     --border-radius-sm: 4px;
@@ -137,7 +138,7 @@
     font-family: "Rubik", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: var(--font-size-xxl);
+    font-size: var(--font-size-2xxl);
   }
   
   .header-right {
@@ -150,6 +151,10 @@
     margin: var(--space-sm) 0;
     font-family: var(--font-family-heading);
     color: var(--color-text);
+  }
+  h1 {
+    font-size: var(--font-size-xxl);
+    color: var(--color-primary-dark);
   }
 /* Strong */
 .strong {
