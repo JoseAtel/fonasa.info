@@ -626,62 +626,52 @@
   }
 
   /** NAV BREADCRUMBS **/
-  /* Contenedor principal */
-nav[aria-label="Breadcrumb"] {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    background-color: #f8f8f8;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    margin: 0 auto;
-    padding: var(--space-md);
+  .breadcrumb {
+    font-size: var(--font-size-sm);
+    margin: var(--space-md) 0;
+    font-family: var(--font-family-base);
+    color: var(--color-text-light);
+  }
+  
+  .breadcrumb ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: center;
-}
-
-/* Estilo de la lista ordenada (ol) */
-nav[aria-label="Breadcrumb"] ol {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-}
-
-/* Estilo de los elementos de la lista (li) */
-nav[aria-label="Breadcrumb"] ol li {
-  margin-right: 10px;
-  font-weight: bold;
-}
-
-/* Enlaces */
-nav[aria-label="Breadcrumb"] a {
-  text-decoration: none;
-  color: #007bff;
-  transition: color 0.3s;
-  font-weight: bold;
-}
-
-nav[aria-label="Breadcrumb"] a:hover {
-  color: #0056b3;
-  font-weight: bold;
-}
-
-/* Separador entre los elementos (puedes cambiarlo según tus necesidades) */
-nav[aria-label="Breadcrumb"] ol li:not(:last-child)::after {
-  content: '>>';
-  margin-left: 10px;
-  color: #777;
-  font-weight: bold;
-}
-
-/* Estilo cuando el enlace está activo (es decir, la página actual) */
-nav[aria-label="Breadcrumb"] ol li:last-child a {
-  color: #666;
-  font-weight: normal;
-  font-weight: bold;
-}
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+  }
+  
+  .breadcrumb li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .breadcrumb li::after {
+    content: "›";
+    margin: 0 var(--space-xs);
+    color: var(--color-text-light);
+  }
+  
+  .breadcrumb li:last-child::after {
+    content: "";
+    margin: 0;
+  }
+  
+  .breadcrumb a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  .breadcrumb li:last-child span {
+    color: var(--color-text);
+    font-weight: bold;
+    cursor: default;
+  }
+  
 
 /** LINK RELACIONADOS **/
 .related-links {
