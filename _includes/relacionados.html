@@ -1,0 +1,11 @@
+<div class="related-links">
+    <h3>También te puede interesar:</h3>
+    <ul>
+      {% for path in site.data.relacionados %}
+        {% unless page.url == path[0] %}
+          <li><a href="{{ path[0] }}">{{ path[1] }}</a></li>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
+  

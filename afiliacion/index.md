@@ -280,13 +280,4 @@ Para más información, puedes consultar la [página oficial del BPS](https://ww
 
 
 
-<div class="related-links">
-
-### También te puede interesar:
-
-<!-- - [Cómo afiliarse a Fonasa](/afiliacion/) -->
-- [Prestaciones y beneficios](/prestaciones/) 
-- [Trámites más comunes en Fonasa](/tramites/) 
-- [Preguntas frecuentes](/preguntas-frecuentes/)
-
-</div>
+{% include relacionados.html %}
