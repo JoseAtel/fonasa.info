@@ -78,13 +78,9 @@
   }
   
   a {
-    color: var(--color-primary-dark);
+    color: var(--color-primary);
     text-decoration: none;
     transition: color var(--transition-fast);
-    padding: 0.25em;
-    background: #edeff1;
-    border-radius: 0.25em;
-    border: solid 1px var(--color-primary-dark);
   }
   
   a:hover {
