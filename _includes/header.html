@@ -12,7 +12,7 @@
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{{ page.description }}">
   <meta name="twitter:card" content="summary_large_image">  
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=5.3' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=5.5' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/search-page.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/category-page.css' | relative_url }}">
   <meta name="robots" content="index, follow">
@@ -55,14 +55,12 @@
           "position": 1,
           "name": "Inicio",
           "item": "{{ site.url }}{{ site.baseurl }}/"
-        }
-        {% assign url_parts = page.url | split: '/' %}
+        }{% assign url_parts = page.url | split: '/' %}
         {% assign position = 2 %}
         {% capture breadcrumb_path %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
         {% for part in url_parts %}
           {% if part != "" and part != "index.html" %}
-            {% capture breadcrumb_path %}{{ breadcrumb_path }}/{{ part }}{% endcapture %}
-            ,{
+            {% capture breadcrumb_path %}{{ breadcrumb_path }}/{{ part }}{% endcapture %},{ 
               "@type": "ListItem",
               "position": {{ position }},
               "name": "{{ part | replace:'-',' ' | capitalize }}",
@@ -73,4 +71,4 @@
         {% endfor %}
       ]
     }
-    </script>    
+    </script>       
