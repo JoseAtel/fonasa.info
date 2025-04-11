@@ -640,6 +640,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: var(--space-xs);
+    padding: 0 var(--space-lg);
   }
   
   .breadcrumb li {
