@@ -8,7 +8,9 @@ permalink: /:categories/:title/
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-
 kramdown:
 parse_block_html: true
 markdown: kramdown
+collections:
+  posts:
+    permalink: /blog/:title/

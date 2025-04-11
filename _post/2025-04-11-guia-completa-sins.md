@@ -9,7 +9,8 @@ image: /assets/images/fonsa-bg-dra.webp
 last_updated: Abril 2025
 author: Equipo Fonasa
 date: 2025-04-11
-permalink: /blog/2025-04-11-guia-completa-sins.md
+permalink: /2025/04/11/guia-completa-sins/
+
 ---
 
 
