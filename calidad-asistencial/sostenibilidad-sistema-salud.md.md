@@ -1,4 +1,3 @@
-```md project="Fonasa Uruguay" file="sostenibilidad-sistema-salud.md" type="markdown"
 ---
 layout: default
 title: Sostenibilidad del Sistema de Salud Uruguayo: Análisis y Perspectivas
