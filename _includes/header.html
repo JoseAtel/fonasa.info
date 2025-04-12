@@ -71,4 +71,21 @@
         {% endfor %}
       ]
     }
-    </script>       
+    </script>
+    <!-- SCRIPT NUEVA VENTANA -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const links = document.querySelectorAll("a[href^='http']");
+        const currentHost = location.hostname;
+    
+        links.forEach(function (link) {
+          const linkHost = new URL(link.href).hostname;
+    
+          if (linkHost !== currentHost) {
+            link.setAttribute("target", "_blank");
+            link.setAttribute("rel", "noopener noreferrer");
+          }
+        });
+      });
+    </script>
+    
