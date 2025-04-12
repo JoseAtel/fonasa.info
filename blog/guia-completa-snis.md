@@ -159,7 +159,6 @@ El MSP ofrece el portal "A Tu Servicio" donde puedes comparar indicadores de los
 Para medicamentos o tratamientos de alto costo no incluidos en el PIAS, existe la posibilidad de solicitar cobertura a través del Fondo Nacional de Recursos (FNR). En casos excepcionales, se puede recurrir a recursos de amparo por vía judicial.
 ```
 
-<h2>{{ page.title }}</h2>
-<h3>Contenido del blog</h3>
+<h2>Contenido del blog</h2>
 
 {% include blog.html %}
