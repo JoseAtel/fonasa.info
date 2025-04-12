@@ -10,6 +10,7 @@ tags: [FONASA, PIAS, FTM, Cobertura médica, Prestaciones de salud]
 image: /assets/images/prestaciones-beneficios-fonasa.webp
 ---
 
+
 # Prestaciones y Beneficios del FONASA: Todo lo que Debes Saber
 
 El Fondo Nacional de Salud (FONASA) es uno de los pilares fundamentales del Sistema Nacional Integrado de Salud (SNIS) en Uruguay. Este fondo público garantiza el acceso a una amplia gama de prestaciones y beneficios para sus afiliados. En este artículo, te explicamos detalladamente cuáles son estas prestaciones, cómo acceder a ellas y qué derechos tienes como usuario del sistema.
