@@ -5,7 +5,7 @@ description: Guía completa sobre las prestaciones y beneficios que ofrece el Fo
 order: 3
 last_updated: 2024-04-12
 author: Equipo Fonasa
-categories: [Prestaciones, Beneficios]
+categories: [Prestaciones y beneficios]
 tags: [FONASA, PIAS, FTM, Cobertura médica, Prestaciones de salud]
 image: /assets/images/prestaciones-beneficios-fonasa.webp
 ---
