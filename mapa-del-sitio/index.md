@@ -25,3 +25,9 @@ Este mapa del sitio te permite encontrar rápidamente todas las secciones dispon
 
 <br>
 ¿No encontrás lo que buscás? Usá el buscador o navegá por las categorías desde el menú principal.
+
+{% include relacionados.html %}
+
+<h2>Contenido del blog</h2>
+
+{% include blog.html %}
