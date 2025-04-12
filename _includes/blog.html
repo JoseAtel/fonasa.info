@@ -1,6 +1,7 @@
 <div class="related-links">
   <ul class="related-list">
     <!--{% assign blog_posts = site.pages | where_exp:"p", "p.url contains '/blog/'" %}-->
+    Blog
     {% for item in blog_posts %}
       {% unless page.url == item.url %}
         <li class="related-item">
