@@ -15,7 +15,7 @@ description: Información y ayuda sobre el Fondo Nacional de Salud (Fonasa) de U
           <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
         </svg>
       </div>
-      <h3>Afiliación y registro</h3>
+      <h3>Afiliación y<br/> registro</h3>
       <p>Información sobre cómo afiliarse al Fonasa y gestionar tu registro</p>
       <div class="article-count">{{ site.afiliacion.size }} artículos</div>
     </a>
