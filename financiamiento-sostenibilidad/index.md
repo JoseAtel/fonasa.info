@@ -13,7 +13,7 @@ En esta sección encontrarás artículos sobre cómo se financia el sistema de s
 <div class="home-categories">
   <div class="category-grid">    
     
-    <a href="{{ '/financiamiento-sostenibilidad/financiamiento-sistema-salud.md' | relative_url }}" class="category-card">
+    <a href="{{ '/financiamiento-sostenibilidad/financiamiento-sistema-salud/' | relative_url }}" class="category-card">
       <div class="category-icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
@@ -28,7 +28,7 @@ En esta sección encontrarás artículos sobre cómo se financia el sistema de s
       <div class="article-count">{{ site.preguntas-frecuentes.size }} artículos</div>
     </a>
 
-    <a href="{{ '/financiamiento-sostenibilidad/sostenibilidad-sistema-salud.md' | relative_url }}" class="category-card">
+    <a href="{{ '/financiamiento-sostenibilidad/sostenibilidad-sistema-salud/' | relative_url }}" class="category-card">
       <div class="category-icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
@@ -43,7 +43,7 @@ En esta sección encontrarás artículos sobre cómo se financia el sistema de s
       <div class="article-count">{{ site.preguntas-frecuentes.size }} artículos</div>
     </a>
 
-    <a href="{{ '/financiamiento-sostenibilidad/eficiencia-gasto-salud.md' | relative_url }}" class="category-card">
+    <a href="{{ '/financiamiento-sostenibilidad/eficiencia-gasto-salud/' | relative_url }}" class="category-card">
       <div class="category-icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
