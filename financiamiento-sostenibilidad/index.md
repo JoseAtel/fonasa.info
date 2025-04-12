@@ -54,7 +54,7 @@ En esta sección encontrarás artículos sobre cómo se financia el sistema de s
         </svg>
       </div>
       <h3>Eficiencia del Gasto<br/> en Salud</h3>
-      <p>Estudio detallado sobre la eficiencia del gasto sanitario en Uruguay, identificando áreas de mejora, comparativas internacionales y propuestas para optimizar los recursos del sistema de salud</p>
+      <p>Estudio detallado sobre la eficiencia del gasto sanitario en Uruguay, identificando áreas de mejora</p>
       <div class="article-count">{{ site.preguntas-frecuentes.size }} artículos</div>
     </a>
 
