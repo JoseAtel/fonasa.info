@@ -199,6 +199,6 @@ La combinación de una mayor conciencia y exigencia por parte de los usuarios, j
 Si necesitas más información sobre tus derechos como usuario del sistema de salud o asistencia para presentar un reclamo, no dudes en contactar a nuestro equipo de [atención al usuario](/contacto) o consultar la sección de [Preguntas frecuentes](/preguntas-frecuentes) de nuestro portal.
 ```
 
-<h2>Contenido del blog</h2>
 
+<h2>Contenido del blog</h2>
 {% include blog.html %}

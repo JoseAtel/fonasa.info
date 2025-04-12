@@ -335,6 +335,6 @@ Como usuario del sistema de salud, es fundamental que conozcas tus derechos y lo
 Si requieres más información sobre los servicios de salud mental disponibles en tu prestador o asistencia para acceder a ellos, no dudes en contactar a nuestro equipo de [atención al usuario](/contacto) o consultar la sección de [Preguntas frecuentes](/preguntas-frecuentes) de nuestro portal.
 ```
 
-<h2>Contenido del blog</h2>
 
+<h2>Contenido del blog</h2>
 {% include blog.html %}

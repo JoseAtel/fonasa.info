@@ -260,6 +260,6 @@ El objetivo final debe ser garantizar que todos los pacientes que necesitan medi
 Si necesitas más información sobre este tema o asistencia específica para tu caso, no dudes en contactar a nuestro equipo de [atención al usuario](/contacto) o consultar la sección de [Preguntas frecuentes](/preguntas-frecuentes) de nuestro portal.
 ```
 
-<h2>Contenido del blog</h2>
 
+<h2>Contenido del blog</h2>
 {% include blog.html %}
