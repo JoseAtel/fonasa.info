@@ -2,7 +2,7 @@
   <ul class="related-list">
     {% assign blog_posts = site.pages | where_exp:"p", "p.url contains '/blog/'" %}
     {% for item in blog_posts %}
-      {% unless page.url == item.url %}
+      {% unless page.url == item.url or item.url == '/blog/' %}
         <li class="related-item">
           <a href="{{ item.url }}">
             {% if item.image %}
