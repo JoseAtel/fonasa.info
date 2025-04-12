@@ -1,25 +1,58 @@
----
-layout: none
-permalink: /blog/feed.xml
----
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Blog de Fonasa.info</title>
-  <subtitle>Artículos sobre salud, SNIS, Fonasa y prestaciones en Uruguay.</subtitle>
-  <link href="{{ site.url }}/blog/feed.xml" rel="self"/>
-  <link href="{{ site.url }}/blog/" />
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}/blog/</id>
-  <generator>Jekyll</generator>
+  <title type="html">Blog de Fonasa.info</title>
+  <subtitle>Artículos sobre Fonasa, SNIS, salud pública y trámites en Uruguay.</subtitle>
+  <link href="https://fonasa.info/blog/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://fonasa.info/blog/" rel="alternate" type="text/html"/>
+  <updated>2025-04-11T00:00:00+00:00</updated>
+  <id>https://fonasa.info/blog/</id>
+  <generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator>
 
-  {% assign blog_posts = site.posts %}
-  {% for post in blog_posts %}
-    <entry>
-      <title>{{ post.title | escape }}</title>
-      <link href="{{ site.url }}{{ post.url }}"/>
-      <id>{{ site.url }}{{ post.url }}</id>
-      <updated>{{ post.date | date_to_xmlschema }}</updated>
-      <summary>{{ post.description | strip_html | truncate: 160 }}</summary>
-    </entry>
-  {% endfor %}
+  <entry>
+    <title>Cómo Afiliarse al Fonasa - Guía Paso a Paso para Trabajadores y Familias</title>
+    <link href="https://fonasa.info/blog/como-afiliarse-fonasa/"/>
+    <id>https://fonasa.info/blog/como-afiliarse-fonasa/</id>
+    <updated>2025-04-12T00:00:00+00:00</updated>
+    <summary>Aprende todo sobre el proceso de afiliación al Fondo Nacional de Salud (Fonasa), requisitos, documentación necesaria y beneficios para ti y tu familia.</summary>
+  </entry>
+  <!-- Otro Articulo -->
+  <entry>
+    <title>Guía Completa sobre el Sistema Nacional Integrado de Salud (SNIS) en Uruguay</title>
+    <link href="https://fonasa.info/blog/guia-completa-snis/"/>
+    <id>https://fonasa.info/blog/guia-completa-snis/</id>
+    <updated>2025-04-12T00:00:00+00:00</updated>
+    <summary>Todo lo que necesitas saber sobre el funcionamiento del Sistema Nacional Integrado de Salud, sus prestadores, financiamiento y cómo acceder a sus servicios.</summary>
+  </entry>
+  <!-- Otro Articulo -->
+  <entry>
+    <title>Medicamentos de Alto Costo en Uruguay - Acceso, Cobertura y Procedimientos</title>
+    <link href="https://fonasa.info/blog/medicamentos-alto-costo/"/>
+    <id>https://fonasa.info/blog/medicamentos-alto-costo/</id>
+    <updated>2025-04-12T00:00:00+00:00</updated>
+    <summary>Guía completa sobre cómo acceder a medicamentos de alto costo en Uruguay, vías de cobertura, rol del Fondo Nacional de Recursos y recursos de amparo.</summary>
+  </entry>
+  <!-- Otro Articulo -->
+  <entry>
+    <title>Prestaciones y Beneficios del FONASA: Todo lo que Debes Saber</title>
+    <link href="https://fonasa.info/blog/prestaciones-beneficios-fonasa/"/>
+    <id>https://fonasa.info/blog/prestaciones-beneficios-fonasa/</id>
+    <updated>2025-04-12T00:00:00+00:00</updated>
+    <summary>Guía completa sobre las prestaciones y beneficios que ofrece el Fondo Nacional de Salud (FONASA) en Uruguay. Conoce tus derechos y servicios cubiertos.</summary>
+  </entry>
+  <!-- Otro Articulo -->
+  <entry>
+    <title>Salud Mental en Uruguay - Cobertura, Prestaciones y Cómo Acceder a los Servicios</title>
+    <link href="https://fonasa.info/blog/salud-mental-uruguay/"/>
+    <id>https://fonasa.info/blog/salud-mental-uruguay/</id>
+    <updated>2025-04-12T00:00:00+00:00</updated>
+    <summary>Guía completa sobre los servicios de salud mental en Uruguay, prestaciones obligatorias, derechos de los usuarios y recursos disponibles para la prevención del suicidio.</summary>
+  </entry>
+  <!-- Otro Articulo -->
+  <entry>
+    <title>Tiempos de Espera en el Sistema de Salud - Derechos, Normativa y Cómo Reclamar</title>
+    <link href="https://fonasa.info/blog/tiempos-espera-sistema-salud/"/>
+    <id>https://fonasa.info/blog/tiempos-espera-sistema-salud/</id>
+    <updated>2025-04-12T00:00:00+00:00</updated>
+    <summary>Conoce los plazos máximos de espera establecidos por ley para consultas médicas y procedimientos, tus derechos como usuario y los pasos para presentar un reclamo efectivo.</summary>
+  </entry>
 </feed>
