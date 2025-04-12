@@ -18,7 +18,7 @@
             ,{
               "@type": "ListItem",
               "position": {{ position }},
-              "name": "{{ part | replace: '-', ' ' | capitalize }}",
+              "name": "{{ part | replace: '-', ' ' | replace: '.html', '' | capitalize | escape }}",
               "item": "{{ site.url }}{{ breadcrumb_path | replace: '//', '/' | append: '/' }}"
             }
             {% assign position = position | plus: 1 %}
@@ -27,5 +27,5 @@
       ]
     }
     </script>    
-    <!--CODIGO JSON LD-->
+    <!-- CODIGO JSON-LD -->
     
