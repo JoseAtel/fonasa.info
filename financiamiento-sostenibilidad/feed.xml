@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="html">Financiamiento sostenibilidad</title>
+  <subtitle>Artículos sobre cómo se financia el sistema de salud, desafíos económicos y propuestas de mejora</subtitle>
+  <link href="https://fonasa.info/financiamiento-sostenibilidad/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://fonasa.info/financiamiento-sostenibilidad/" rel="alternate" type="text/html"/>
+  <updated>2025-04-11T00:00:00+00:00</updated>
+  <id>https://fonasa.info/financiamiento-sostenibilidad/</id>
+  <generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator>
+
+  <entry>
+    <title>Financiamiento y Sostenibilidad</title>
+    <link href="https://fonasa.info/financiamiento-sostenibilidad/financiamiento-sistema-salud/"/>
+    <id>https://fonasa.info/financiamiento-sostenibilidad/financiamiento-sistema-salud/</id>
+    <updated>2025-04-12T00:00:00+00:00</updated>
+    <summary>Artículos sobre cómo se financia el sistema de salud, desafíos económicos y propuestas de mejora</summary>
+  </entry>
+  <!-- Otro Articulo -->
+  <entry>
+    <title>Calidad Asistencial</title>
+    <link href="https://fonasa.info/financiamiento-sostenibilidad/sostenibilidad-sistema-salud/"/>
+    <id>https://fonasa.info/financiamiento-sostenibilidad/sostenibilidad-sistema-salud/</id>
+    <updated>2025-04-12T00:00:00+00:00</updated>
+    <summary>Contenido sobre indicadores de calidad, evaluación de servicios y derechos de los usuarios</summary>
+  </entry>
+  <!-- Otro Articulo -->
+  <entry>
+    <title>Eficiencia del Gasto en Salud</title>
+    <link href="https://fonasa.info/financiamiento-sostenibilidad/eficiencia-gasto-salud/"/>
+    <id>https://fonasa.info/financiamiento-sostenibilidad/eficiencia-gasto-salud/</id>
+    <updated>2025-04-12T00:00:00+00:00</updated>
+    <summary>Estudio detallado sobre la eficiencia del gasto sanitario en Uruguay, identificando áreas de mejora</summary>
+  </entry>
+</feed>
