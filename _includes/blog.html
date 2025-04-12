@@ -1,4 +1,5 @@
 <div class="related-links">
+  <h2>Contenido del blog</h2>
   <ul class="related-list">
     {% assign blog_posts = site.pages | where_exp:"p", "p.url contains '/blog/'" %}
     {% for item in blog_posts %}

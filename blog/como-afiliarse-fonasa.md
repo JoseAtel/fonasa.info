@@ -270,6 +270,5 @@ Si tienes dudas específicas sobre tu situación particular o necesitas asistenc
 - [Listado de prestadores integrales](https://www.gub.uy/ministerio-salud-publica/prestadores)
 ```
 
-
-<h2>Contenido del blog</h2>
+---
 {% include blog.html %}
