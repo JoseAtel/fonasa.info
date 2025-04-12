@@ -816,4 +816,7 @@ Las URLs sugeridas para cada artículo son:
 Estos artículos deberían posicionarse bien en los motores de búsqueda para términos relacionados con el sistema de salud uruguayo, Fonasa, afiliación, tiempos de espera, medicamentos de alto costo y salud mental, ayudando a los usuarios a encontrar información confiable y completa sobre estos temas.
 ```
 
+<h2>{{ page.title }}</h2>
+<h3>Contenido del blog</h3>
+
 {% include blog.html %}
