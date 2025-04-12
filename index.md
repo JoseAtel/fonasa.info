@@ -26,7 +26,7 @@ description: Información y ayuda sobre el Fondo Nacional de Salud (Fonasa) de U
           <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
         </svg>
       </div>
-      <h3>Prestaciones y beneficios</h3>
+      <h3>Prestaciones y<br/> beneficios</h3>
       <p>Detalles sobre las prestaciones y beneficios que ofrece el Fonasa</p>
       <div class="article-count">{{ site.prestaciones.size }} artículos</div>
     </a>
@@ -41,7 +41,7 @@ description: Información y ayuda sobre el Fondo Nacional de Salud (Fonasa) de U
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
       </div>
-      <h3>Trámites y gestiones</h3>
+      <h3>Trámites y<br/> gestiones</h3>
       <p>Guías para realizar trámites y gestiones relacionadas con el Fonasa</p>
       <div class="article-count">{{ site.tramites.size }} artículos</div>
     </a>
@@ -54,7 +54,7 @@ description: Información y ayuda sobre el Fondo Nacional de Salud (Fonasa) de U
           <line x1="12" y1="17" x2="12.01" y2="17"></line>
         </svg>
       </div>
-      <h3>Preguntas frecuentes</h3>
+      <h3>Preguntas<br/> frecuentes</h3>
       <p>Respuestas a las preguntas más comunes sobre el Fonasa</p>
       <div class="article-count">{{ site.preguntas-frecuentes.size }} artículos</div>
     </a>
@@ -69,7 +69,7 @@ description: Información y ayuda sobre el Fondo Nacional de Salud (Fonasa) de U
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
       </div>
-      <h3>Financiamiento y Sostenibilidad</h3>
+      <h3>Financiamiento y<br/> Sostenibilidad</h3>
       <p>Artículos sobre cómo se financia el sistema de salud, desafíos económicos y propuestas de mejora</p>
       <div class="article-count">{{ site.preguntas-frecuentes.size }} artículos</div>
     </a>
