@@ -1,0 +1,19 @@
+<div class="related-links">
+    <h3>Contenido del blog</h3>
+    <ul class="related-list">
+      {% for item in site.data.relacionados %}
+        {% unless page.url == item.url %}
+          <li class="related-item">
+            <a href="{{ item.url }}">
+              <img src="{{ item.image }}" alt="{{ item.title }} icono" class="related-icon">
+              <div class="related-text">
+                <strong>{{ item.title }}</strong>
+                <p>{{ item.description }}</p>
+              </div>
+            </a>
+          </li>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
+  
