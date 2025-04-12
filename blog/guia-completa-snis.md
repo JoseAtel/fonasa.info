@@ -7,7 +7,7 @@ last_updated: Abril 2025
 author: Equipo Fonasa
 categories: [Información General]
 tags: [SNIS, Fonasa, Prestadores de Salud, Cobertura Médica]
-image: /assets/images/preguntas-frecuentes.webp
+image: /assets/images/guia-completa-snis.webp
 ---
 
 # Guía Completa sobre el Sistema Nacional Integrado de Salud (SNIS) en Uruguay

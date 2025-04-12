@@ -7,7 +7,7 @@ last_updated: Abril 2025
 author: Equipo Fonasa
 categories: [Afiliación y registro]
 tags: [Fonasa, Afiliación, Trámites, Seguro Nacional de Salud]
-image: /assets/images/preguntas-frecuentes.webp
+image: /assets/images/como-afiliarse-fonasa.webp
 ---
 
 # Cómo Afiliarse al Fonasa: Guía Paso a Paso para Trabajadores y Familias

@@ -7,7 +7,7 @@ last_updated: Abril 2025
 author: Equipo Fonasa
 categories: [Prestaciones y beneficios]
 tags: [Tiempos de Espera, Derechos del Usuario, Reclamos, Calidad Asistencial]
-image: /assets/images/preguntas-frecuentes.webp
+image: /assets/images/tiempos-espera-sistema-salud.webp
 ---
 
 # Tiempos de Espera en el Sistema de Salud: Derechos, Normativa y Cómo Reclamar

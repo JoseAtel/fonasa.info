@@ -7,7 +7,7 @@ last_updated: Abril 2025
 author: Equipo Fonasa
 categories: [Prestaciones y beneficios]
 tags: [Medicamentos, Alto Costo, FNR, Recursos de Amparo, Cobertura]
-image: /assets/images/preguntas-frecuentes.webp
+image: /assets/images/medicamentos-alto-costo.webp
 ---
 
 # Medicamentos de Alto Costo en Uruguay: Acceso, Cobertura y Procedimientos
@@ -261,5 +261,5 @@ Si necesitas más información sobre este tema o asistencia específica para tu 
 ```
 
 
-<h2>Contenido del blog</h2>
+
 {% include blog.html %}

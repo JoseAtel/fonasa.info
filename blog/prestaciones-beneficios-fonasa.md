@@ -7,7 +7,7 @@ last_updated: 2024-04-12
 author: Equipo Fonasa
 categories: [Prestaciones, Beneficios]
 tags: [FONASA, PIAS, FTM, Cobertura médica, Prestaciones de salud]
-image: /assets/images/prestaciones-fonasa.webp
+image: /assets/images/prestaciones-beneficios-fonasa.webp
 ---
 
 # Prestaciones y Beneficios del FONASA: Todo lo que Debes Saber

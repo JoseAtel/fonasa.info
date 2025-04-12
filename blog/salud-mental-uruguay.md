@@ -7,7 +7,7 @@ last_updated: Abril 2025
 author: Equipo Fonasa
 categories: [Prestaciones y beneficios]
 tags: [Salud Mental, Psicoterapia, Prevención del Suicidio, Ley de Salud Mental]
-image: /assets/images/preguntas-frecuentes.webp
+image: /assets/images/salud-mental-uruguay.webp
 ---
 
 # Salud Mental en Uruguay: Cobertura, Prestaciones y Cómo Acceder a los Servicios
