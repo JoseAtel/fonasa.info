@@ -160,5 +160,5 @@ Para medicamentos o tratamientos de alto costo no incluidos en el PIAS, existe l
 ```
 
 
-<h2>Contenido del blog</h2>
+
 {% include blog.html %}

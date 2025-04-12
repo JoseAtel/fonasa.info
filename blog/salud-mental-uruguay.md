@@ -336,5 +336,5 @@ Si requieres más información sobre los servicios de salud mental disponibles e
 ```
 
 
-<h2>Contenido del blog</h2>
+
 {% include blog.html %}

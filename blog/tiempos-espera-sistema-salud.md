@@ -200,5 +200,6 @@ Si necesitas más información sobre tus derechos como usuario del sistema de sa
 ```
 
 
-<h2>Contenido del blog</h2>
+
+
 {% include blog.html %}
