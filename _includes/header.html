@@ -45,33 +45,6 @@
     </div>
   </div>
   </header>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Inicio",
-          "item": "{{ site.url }}{{ site.baseurl }}/"
-        }{% assign url_parts = page.url | split: '/' %}
-        {% assign position = 2 %}
-        {% capture breadcrumb_path %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
-        {% for part in url_parts %}
-          {% if part != "" and part != "index.html" %}
-            {% capture breadcrumb_path %}{{ breadcrumb_path }}/{{ part }}{% endcapture %},{ 
-              "@type": "ListItem",
-              "position": {{ position }},
-              "name": "{{ part | replace:'-',' ' | capitalize }}",
-              "item": "{{ breadcrumb_path }}/"
-            }
-            {% assign position = position | plus: 1 %}
-          {% endif %}
-        {% endfor %}
-      ]
-    }
-    </script>
     <!-- SCRIPT NUEVA VENTANA -->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
