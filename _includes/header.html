@@ -45,35 +45,4 @@
     </div>
   </div>
   </header>
-  <!-- SCHEMA JSON LD -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Inicio",
-          "item": "{{ site.url }}{{ site.baseurl }}/"
-        }
-        {% assign url_parts = page.url | split: '/' %}
-        {% assign breadcrumb_path = site.baseurl %}
-        {% assign position = 2 %}
-        {% assign last_index = url_parts | size | minus: 1 %}
-        {% for part in url_parts %}
-          {% if part != "" and part != "index.html" %}
-            {% capture breadcrumb_path %}{{ breadcrumb_path }}/{{ part }}{% endcapture %}
-            ,{
-              "@type": "ListItem",
-              "position": {{ position }},
-              "name": "{{ part | replace:'-',' ' | capitalize }}",
-              "item": "{{ site.url }}{{ breadcrumb_path | replace: '//', '/' }}/"
-            }
-            {% assign position = position | plus: 1 %}
-          {% endif %}
-        {% endfor %}
-      ]
-    }
-    </script>
-    
+  {% include breadcrumb-jsonld.html %}    
