@@ -518,3 +518,7 @@ Afiliarse al FONASA es un paso fundamental para acceder a los beneficios del Sis
 Siguiendo los pasos detallados en esta guía, podrás completar tu afiliación correctamente y disfrutar de todos los beneficios que ofrece el sistema. Recuerda que es importante mantener actualizada tu información y la de tus beneficiarios para evitar inconvenientes con tu cobertura.
 
 Si tienes dudas específicas sobre tu situación particular, te recomendamos consultar directamente con el BPS o con el Ministerio de Salud Pública, donde podrán brindarte asesoramiento personalizado.
+
+
+
+{% include blog.html %}
