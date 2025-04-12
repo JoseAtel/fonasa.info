@@ -260,7 +260,7 @@ Sí, puedes elegir un seguro privado integral, pero el Fonasa solo cubre el equi
 
 La afiliación al Fonasa es un derecho fundamental para los trabajadores uruguayos y sus familias, garantizando el acceso a servicios de salud de calidad. El proceso de afiliación es relativamente sencillo y los beneficios son numerosos, contribuyendo a un sistema de salud más equitativo y accesible para todos.
 
-Si tienes dudas específicas sobre tu situación particular o necesitas asistencia con el proceso de afiliación, te recomendamos consultar directamente en las oficinas de BPS o contactar a nuestro equipo de [atención al usuario](/contacto).
+Si tienes dudas específicas sobre tu situación particular o necesitas asistencia con el proceso de afiliación, te recomendamos consultar directamente en las oficinas de BPS.
 
 ## Enlaces útiles
 
