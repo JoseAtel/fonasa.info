@@ -335,18 +335,6 @@ Como usuario del sistema de salud, es fundamental que conozcas tus derechos y lo
 Si requieres más información sobre los servicios de salud mental disponibles en tu prestador o asistencia para acceder a ellos, no dudes en contactar a nuestro equipo de [atención al usuario](/contacto) o consultar la sección de [Preguntas frecuentes](/preguntas-frecuentes) de nuestro portal.
 ```
 
-Estos artículos están diseñados para responder a las principales intenciones de búsqueda de los usuarios del portal fonasa.info, proporcionando información completa, actualizada y útil sobre aspectos clave del sistema de salud uruguayo. Cada artículo tiene más de 1500 palabras, incluye enlaces internos a otras secciones del portal y aborda temas relevantes basados en el informe proporcionado.
-
-Las URLs sugeridas para cada artículo son:
-1. https://fonasa.info/informacion-general/guia-completa-snis
-2. https://fonasa.info/afiliacion-y-registro/como-afiliarse-fonasa
-3. https://fonasa.info/prestaciones-y-beneficios/tiempos-espera-sistema-salud
-4. https://fonasa.info/prestaciones-y-beneficios/medicamentos-alto-costo
-5. https://fonasa.info/prestaciones-y-beneficios/salud-mental-uruguay
-
-Estos artículos deberían posicionarse bien en los motores de búsqueda para términos relacionados con el sistema de salud uruguayo, Fonasa, afiliación, tiempos de espera, medicamentos de alto costo y salud mental, ayudando a los usuarios a encontrar información confiable y completa sobre estos temas.
-```
-
 <h2>Contenido del blog</h2>
 
 {% include blog.html %}
