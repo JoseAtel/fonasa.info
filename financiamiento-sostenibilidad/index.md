@@ -6,7 +6,6 @@ description: Artículos sobre cómo se financia el sistema de salud, desafíos e
 ---
 
 <h1>{{ page.title }}</h1>
-<h2>Contenido de los artículos</h2>
 <br>
 En esta sección encontrarás artículos sobre cómo se financia el sistema de salud, desafíos económicos y propuestas de mejora.  
 
