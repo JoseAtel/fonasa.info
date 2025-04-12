@@ -3,7 +3,7 @@ layout: default
 title: Medicamentos de Alto Costo en Uruguay - Acceso, Cobertura y Procedimientos
 description: Guía completa sobre cómo acceder a medicamentos de alto costo en Uruguay, vías de cobertura, rol del Fondo Nacional de Recursos y recursos de amparo.
 order: 4
-last_updated: Abril 2025
+last_updated: 2024-04-12
 author: Equipo Fonasa
 categories: [Prestaciones y beneficios]
 tags: [Medicamentos, Alto Costo, FNR, Recursos de Amparo, Cobertura]

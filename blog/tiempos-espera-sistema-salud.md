@@ -2,8 +2,8 @@
 layout: default
 title: Tiempos de Espera en el Sistema de Salud - Derechos, Normativa y Cómo Reclamar
 description: Conoce los plazos máximos de espera establecidos por ley para consultas médicas y procedimientos, tus derechos como usuario y los pasos para presentar un reclamo efectivo.
-order: 3
-last_updated: Abril 2025
+order: 6
+last_updated: 2024-04-12
 author: Equipo Fonasa
 categories: [Prestaciones y beneficios]
 tags: [Tiempos de Espera, Derechos del Usuario, Reclamos, Calidad Asistencial]

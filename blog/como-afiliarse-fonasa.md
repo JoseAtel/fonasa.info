@@ -3,7 +3,7 @@ layout: default
 title: Cómo Afiliarse al Fonasa - Guía Paso a Paso para Trabajadores y Familias
 description: Aprende todo sobre el proceso de afiliación al Fondo Nacional de Salud (Fonasa), requisitos, documentación necesaria y beneficios para ti y tu familia.
 order: 2
-last_updated: Abril 2025
+last_updated: 2024-04-12
 author: Equipo Fonasa
 categories: [Afiliación y registro]
 tags: [Fonasa, Afiliación, Trámites, Seguro Nacional de Salud]

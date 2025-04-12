@@ -3,7 +3,7 @@ layout: default
 title: Guía Completa sobre el Sistema Nacional Integrado de Salud (SNIS) en Uruguay
 description: Todo lo que necesitas saber sobre el funcionamiento del Sistema Nacional Integrado de Salud, sus prestadores, financiamiento y cómo acceder a sus servicios.
 order: 1
-last_updated: Abril 2025
+last_updated: 2024-04-12
 author: Equipo Fonasa
 categories: [Información General]
 tags: [SNIS, Fonasa, Prestadores de Salud, Cobertura Médica]

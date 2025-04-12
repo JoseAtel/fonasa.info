@@ -3,7 +3,7 @@ layout: default
 title: Salud Mental en Uruguay - Cobertura, Prestaciones y Cómo Acceder a los Servicios
 description: Guía completa sobre los servicios de salud mental en Uruguay, prestaciones obligatorias, derechos de los usuarios y recursos disponibles para la prevención del suicidio.
 order: 5
-last_updated: Abril 2025
+last_updated: 2024-04-12
 author: Equipo Fonasa
 categories: [Prestaciones y beneficios]
 tags: [Salud Mental, Psicoterapia, Prevención del Suicidio, Ley de Salud Mental]
